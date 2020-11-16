@@ -1,0 +1,308 @@
+#body {
+  margin-left: 16px;
+  margin-right: 18px;
+}
+
+
+.header-style{
+  background:#707070;
+}
+.header-style .subtitle {
+  text-align: left;
+  color: #fff;
+  padding-top: 66px;
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.header-style .title {
+  text-align: left;
+  color: #fff;
+  padding-top: 0px;
+  padding-left: 16px;
+  font-size: 48px;
+}
+
+.header-style .description {
+  text-align: left;
+  color: #fff;
+  padding-top: 0px;
+  padding-left: 16px;
+  padding-right: 45px;
+  font-size: 14px;
+}
+
+.header-style .button-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 56px;
+  margin-left: 38px;
+  margin-right: 41px;
+}
+
+.button-wrapper > a {
+  width: 100%;
+  max-width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #707070;
+  box-shadow: 0px 1px 6px #00000029;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #707070;
+  background: #fff;
+  font-size: 14px;
+
+  transition: 0.2s;
+}
+
+.button-wrapper > a:hover {
+  background-color: #bdbcbc;
+}
+
+.button-wrapper > a:first-child {
+  margin-right: 21px;
+  margin-bottom: 20px;
+}
+
+.button-wrapper > a:nth-child(2){
+  margin-bottom: 20px;
+}
+
+.button-wrapper > a:nth-child(3) {
+  margin-right: 21px;
+  margin-bottom: 68.89px;
+}
+
+.button-wrapper > a:nth-child(4) {
+  margin-bottom: 68.89px;
+}
+
+
+.section-text {
+  margin-left: 16px;
+  margin-right: 18px;
+  padding-top: 29.11px;
+  color: #888888;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.section-text > h1:first-child {
+  margin-right: 70px;
+  color: #888888;
+  text-align: left;
+  letter-spacing: 0px;
+  font-size: 20px;
+  padding-bottom: 17px;
+}
+
+.section-text > p:nth-child(2) {
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.section-text > p:nth-child(3) {
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+
+.section-text .form-wrapper input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+.section-text .form-wrapper label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.section-text .form-wrapper .form-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  font-size: 12px;
+  width: 50%;
+  padding-right:20px;
+
+}
+
+.section-text .form-wrapper .form-checkbox input{
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+
+.section-text .form-wrapper .form-checkbox label{
+  font-size: 12px;
+  padding-right: 40px;
+  padding-left: 5px;
+}
+
+.section-text .form-wrapper button{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+  border: 1px solid #707070;
+  text-decoration: none;
+  color: #707070;
+  border-radius: 4px;
+}
+
+.section-text .form-wrapper button:hover {
+  background: #8888;
+}
+
+.products-section {
+  display: flex;
+  color: #707070;
+  padding-top: 91px;
+
+}
+
+
+.products-section .titulo {
+  max-height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.products-section .titulo h1{
+  font-size: 18px;
+  opacity: 1;
+  padding-left: 17px;
+  padding-right: 17px;
+
+}
+
+
+.products-section .title-line {
+  margin-top: 10px;
+  min-width: 103px;
+  border-top: 1px solid #707070;
+  opacity: 1;
+}
+
+.share-section {
+  color: #707070;
+  font-size: 14px;
+  padding-top: 91px;
+  padding-right: 17px;
+  padding-left: 9px;
+}
+
+.share-section .titulo {
+  max-height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.share-section .titulo h1{
+  font-size: 18px;
+  padding-bottom: 18px;
+  opacity: 1;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.share-section .title-line {
+  margin-top: 10px;
+  min-width: 78px;
+  border-top: 1px solid #707070;
+  opacity: 1;
+}
+
+
+
+.share-section .share-text  {
+  letter-spacing: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 18px;
+  margin-right: 16px;
+  margin-right: 16px;
+
+
+}
+.share-section .share-text p:first-child {
+  padding-bottom: 0px;
+}
+
+
+
+.share-section input{
+  width: 100%;
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+.share-section .botao {
+  display: flex;
+  justify-content: center;
+
+}
+
+.share-section .botao button {
+  color: #707070;
+  min-width: 269px;
+  min-height: 39px;
+  font-size: 16px;
+  opacity: 1;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  background: none;
+  box-shadow: none;
+  margin-bottom: 82px;
+}
+
+.share-section .botao button:hover {
+  background-color: #bdbcbc;
+}
+
+
+
+footer {
+  min-height: 157px;
+  background-color: #707070;
+  color: #FFFFFF;
+  font-size: 12px;
+  opacity: 1;
+  letter-spacing: 0px;
+
+}
+
+footer .footer-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+
+
+
+}
+
+
+
+
+
+
+
