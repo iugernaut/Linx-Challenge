@@ -4,9 +4,10 @@
 }
 
 
-.header-style{
+.header-style {
   background:#707070;
 }
+
 .header-style .subtitle {
   text-align: left;
   color: #fff;
@@ -41,7 +42,7 @@
   margin-right: 41px;
 }
 
-.button-wrapper > a {
+.header-style .button-wrapper > a {
   width: 100%;
   max-width: 160px;
   height: 40px;
@@ -207,7 +208,7 @@
 
 .share-section .titulo {
   max-height: 100px;
-  width: 100%;
+  width: 104%;
   display: flex;
   justify-content: center;
   font-size: 16px;
@@ -217,8 +218,8 @@
   font-size: 18px;
   padding-bottom: 18px;
   opacity: 1;
-  padding-left: 17px;
-  padding-right: 17px;
+  padding-left: 19px;
+  padding-right: 30px;
 }
 
 .share-section .title-line {
